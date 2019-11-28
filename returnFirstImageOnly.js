@@ -42,7 +42,6 @@
       <div class="card-body">
         <h5 class="card-title">${firstImage.user.name}</h5>
         <p class="card-text">${firstImage.description}</p>
-      </div>
     </div> `;
       } else {
           htmlContent = `<div class="error-no-image">No Image Available </div>`;
