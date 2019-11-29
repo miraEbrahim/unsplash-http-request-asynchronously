@@ -9,16 +9,19 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
+  <body class="bg-dark">
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-   <header>
-    <div class="jumbotron">
-      <h1 class="display-4">Asynchronous JavaScript</h1>
-      <p class="lead"> the JavaScript engine also provides a way for us to make asynchronous HTTP requests.</p>
+   <header class="">
+     <div class="container jumbotron bg-pink">
+   
+      <h1 class="display-4 heading">Asynchronous JavaScript</h1>
+      <p class="lead text-white"> the JavaScript engine also provides a way for us to make asynchronous HTTP requests.</p>
       
       <hr class="my-4">
       <p><ul>
@@ -26,13 +29,15 @@
           <li>Ajax with Fetch</li>
           <li>Ajax with JQuery</li>
         </ul></p>
+   
     </div>
    </header>
    <main role="main">
      <section class="xhr">
        <div class="row">
-       <div class="container">
-         <h2> Ajax with XHR</h2>
+       <div class="container  jumbotron">
+         <h2 class="pink">XHR:</h2>
+         <h4>Send asynchronous requests using XMLHttpRequests XHR</h4>
       <p>
           the JavaScript engine also provides a way for us to make asynchronous HTTP requests. We do that with an XMLHttpRequest object. We can create these objects with the provided XMLHttpRequest constructor function.
         abstract 
@@ -71,24 +76,38 @@
       </section>
       <section class="xhr">
           <div class="row">
-          <div class="container">
-            <h2> Ajax with Fetch</h2>
+          <div class="container jumbotron">
+            <h2 class="pink"> Fetch:</h2>
+            <h4> Making Promises based Asynchronous AJAX requests</h4>
          <p>
-             the JavaScript engine also provides a way for us to make asynchronous HTTP requests.
+            
+The Fetch API is a new and more powerful replacement of the XHR, fully async and Promise based. 
              </p>
              </div>
              </div>
              </section>
              <section class="xhr">
                 <div class="row">
-                <div class="container">
-                  <h2> Ajax with JQuery</h2>
+                <div class="container  jumbotron">
+                  <h2 class="pink"> Ajax with JQuery</h2>
                <p>
                    the JavaScript engine also provides a way for us to make asynchronous HTTP requests.
                    </p>
                    </div>
                    </div>
                    </section>
+                   <section class="xhr">
+                      <div class="row">
+                      <div class="container  jumbotron">
+                        <h2 class="pink"> Async/Await:</h2>
+                        <h4> Async AJAX calls in a synchronous readable way</h4>
+                     <p>
+                         the JavaScript engine also provides a way for us to make asynchronous HTTP requests.
+                         </p>
+                         </div>
+                         </div>
+                         </section>
+                   
       </main>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>  
